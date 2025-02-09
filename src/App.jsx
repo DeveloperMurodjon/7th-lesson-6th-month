@@ -56,9 +56,7 @@ function App() {
             className="flex justify-between items-center text-white bg-gray-800 p-3 rounded mb-2"
           >
             <span
-              className={
-                task.completed ? "line-through text-white text-green-400" : ""
-              }
+              className={task.completed ? "line-through text-green-400" : ""}
             >
               {task.title}
             </span>
